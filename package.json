@@ -1,0 +1,15 @@
+{
+  "name": "joke-bot",
+  "version": "1.0.0",
+  "description": "Slackbox that tells random joke.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Paul Dickerson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.1.0"
+  }
+}
