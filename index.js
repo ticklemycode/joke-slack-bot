@@ -1,7 +1,7 @@
-const SlackBox = require('slackbots');
+const SlackBot = require('slackbots');
 const axios = require('axios');
 
-const bot = new SlackBox({
+const bot = new SlackBot({
   token: 'xoxb-377892006181-377655545683-W4II5yAoame49qLsd8B9bF9I', //Bot User OAuth Access Token
   name: 'jokebot' // App name
 });
